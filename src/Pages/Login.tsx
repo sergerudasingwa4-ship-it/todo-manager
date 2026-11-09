@@ -1,32 +1,33 @@
 
 import { Link } from "react-router-dom";
-import VQ_Logo from "../assets/VQ_Logo.png";
+import Virunga_Quest from "../assets/Virunga_Quest.png"
+
 
 const Login = () => {
     return (
-        <div className="min-h-screen bg-[#090E1B] flex flex-col items-center justify-center p-4">
+        <div className="min-h-screen bg-[#B1C290] flex flex-col items-center justify-center p-4">
 
             {/* Logo et titre */}
             <div className="flex flex-col items-center mb-8">
 
                 <img
-                    src={VQ_Logo}
+                    src={Virunga_Quest}
                     alt="Virunga Quest Logo"
-                    className="w-24 h-24 object-contain rounded-full mb-5"
+                    className="w-28 h-28 object-contain rounded-full mb-5"
                 />
 
-                <p className="text-xs font-semibold tracking-[0.2em] text-slate-400 mb-2">
+                <p className="text-xs font-semibold tracking-[0.2em] text-[#1D3622] mb-2">
                     VIRUNGA - QUEST
                 </p>
 
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-3xl font-bold text-[#1D3622]">
                     LogIn
                 </h1>
 
             </div>
 
             {/* Conteneur du formulaire */}
-            <div className="w-full max-w-md bg-[#111C30] border border-[#26354F] p-6 rounded-2xl shadow-lg">
+            <div className="w-full max-w-md bg-[#F4F5EF] border border-[#26354F] p-6 rounded-2xl shadow-lg">
 
                 <form className="w-[95%] mx-auto flex flex-col gap-4">
 
@@ -34,7 +35,7 @@ const Login = () => {
                     <div className="flex flex-col gap-2">
                         <label
                             htmlFor="email"
-                            className="text-sm text-slate-400"
+                            className="text-[#26354F] font-semibold"
                         >
                             E-mail
                         </label>
@@ -43,7 +44,7 @@ const Login = () => {
                             type="email"
                             id="email"
                             placeholder="name@virungaquest.com"
-                            className="w-full bg-[#26354F] text-white placeholder:text-slate-500 border border-[#26354F] rounded-lg px-3 py-3 outline-none focus:border-[#A4C639]"
+                            className="w-full bg-[#1D3622] text-white placeholder:text-white border border-[#B1C295] rounded-lg px-3 py-3 outline-none focus:border-[#B1C290]"
                         />
                     </div>
 
@@ -51,7 +52,7 @@ const Login = () => {
                     <div className="flex flex-col gap-2">
                         <label
                             htmlFor="password"
-                            className="text-sm text-slate-400"
+                            className="text-[#26354F] font-semibold"
                         >
                             Password
                         </label>
@@ -59,25 +60,25 @@ const Login = () => {
                         <input
                             type="password"
                             id="password"
-                            className="w-full bg-[#17243A] text-white border border-[#A4C639]  rounded-lg px-3 py-3 outline-none focus:ring-1 focus:ring-[#A4C639]"
+                            className="w-full bg-[#1D3622] text-white border border-[#1E3722]  rounded-lg px-3 py-3 outline-none focus:ring-1 focus:ring-[#1E3722]"
                         />
                     </div>
 
                     {/* Bouton de connexion */}
                     <button
                         type="submit"
-                        className="w-full bg-[#A4C639] text-black font-semibold py-3 rounded-xl hover:bg-[#C0D878] transition-colors"
+                        className="w-full bg-[#1E3722] text-black font-semibold py-3 rounded-xl hover:bg-[#B1C290] transition-colors"
                     >
                         Log In
                     </button>
 
 {/* Lien vers l'inscription */}
-<div className="text-sm text-slate-400 mt-1">
+<div className="text-sm text-[#26354F] mt-1">
     Don't have an account?
 
     <Link
         to="/register"
-        className="text-[#A4C639] font-semibold ml-1 hover:text-[#C0D878] transition-colors"
+        className="text-[#1E3722] font-semibold ml-1 hover:text-[#B1C290] transition-colors"
     >
         Register here
     </Link>
