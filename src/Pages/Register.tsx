@@ -19,14 +19,14 @@ const Register = () => {
                 </div>
 
                 <div className="w-[90%] mx-auto flex flex-col gap-2">
-                    <label htmlFor="names" className="text-[#26354F] font-semibold">
+                    <label htmlFor="text" className="text-[#26354F] font-semibold">
                         Name
                     </label>
                     <input
                         type="text"
                         id="names"
                         placeholder="Enter your names"
-                        className="w-full bg-[#1D3622] text-[#1D3521] placeholder:text-white border border-[#26354F] rounded-lg px-4 py-3 outline-none focus:border-[#1E3722]"
+                        className="w-full bg-[#1D3622] text-white placeholder:text-white border border-[#26354F] rounded-lg px-4 py-3 outline-none focus:border-[#1E3722]"
                     />
                 </div>
 
