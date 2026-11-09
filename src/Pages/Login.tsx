@@ -43,7 +43,7 @@ const Login = () => {
                             type="email"
                             id="email"
                             placeholder="name@virungaquest.com"
-                            className="w-full bg-[#26354F] text-white placeholder:text-slate-500 border border-[#26354F] rounded-lg px-3 py-3 outline-none focus:border-[#F58A1F]"
+                            className="w-full bg-[#26354F] text-white placeholder:text-slate-500 border border-[#26354F] rounded-lg px-3 py-3 outline-none focus:border-[#A4C639]"
                         />
                     </div>
 
@@ -59,14 +59,14 @@ const Login = () => {
                         <input
                             type="password"
                             id="password"
-                            className="w-full bg-[#17243A] text-white border border-[#F58A1F] rounded-lg px-3 py-3 outline-none focus:ring-1 focus:ring-[#F58A1F]"
+                            className="w-full bg-[#17243A] text-white border border-[#A4C639]  rounded-lg px-3 py-3 outline-none focus:ring-1 focus:ring-[#A4C639]"
                         />
                     </div>
 
                     {/* Bouton de connexion */}
                     <button
                         type="submit"
-                        className="w-full bg-[#F58A1F] text-black font-semibold py-3 rounded-xl hover:bg-[#E87912] transition-colors"
+                        className="w-full bg-[#A4C639] text-black font-semibold py-3 rounded-xl hover:bg-[#C0D878] transition-colors"
                     >
                         Log In
                     </button>
@@ -77,7 +77,7 @@ const Login = () => {
 
     <Link
         to="/register"
-        className="text-[#A4C639] font-semibold ml-1 hover:text-[#E87912] transition-colors"
+        className="text-[#A4C639] font-semibold ml-1 hover:text-[#C0D878] transition-colors"
     >
         Register here
     </Link>

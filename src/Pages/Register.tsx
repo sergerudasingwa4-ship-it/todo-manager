@@ -26,7 +26,7 @@ const Register = () => {
                         type="text"
                         id="names"
                         placeholder="Enter your names"
-                        className="w-full bg-[#26354F] text-white placeholder:text-white border border-[#26354F] rounded-lg px-4 py-3"
+                        className="w-full bg-[#26354F] text-white placeholder:text-white border border-[#26354F] rounded-lg px-4 py-3 outline-none focus:border-[#A4C639]"
                     />
                 </div>
 
@@ -38,7 +38,7 @@ const Register = () => {
                         type="email"
                         id="email"
                         placeholder="Enter your email"
-                        className="w-full bg-[#26354F] text-white placeholder:text-white border border-[#26354F] rounded-lg px-4 py-3"
+                        className="w-full bg-[#26354F] text-white placeholder:text-white border border-[#26354F] rounded-lg px-4 py-3 outline-none focus:border-[#A4C639]"
                     />
                 </div>
 
@@ -50,13 +50,13 @@ const Register = () => {
                         type="password"
                         id="password"
                         placeholder="Enter your password"
-                        className="w-full bg-[#26354F] text-white placeholder:text-white border border-[#26354F] rounded-lg px-4 py-3"
+                        className="w-full bg-[#26354F] text-white placeholder:text-white border border-[#26354F] rounded-lg px-4 py-3 outline-none focus:border-[#A4C639]"
                     />
                 </div>
 
                 <button
                     type="submit"
-                    className="w-[90%] mx-auto mt-4 bg-[#F58A1F] text-black font-semibold py-3 rounded-xl hover:bg-[#E87912] transition-colors"
+                    className="w-[90%] mx-auto mt-4 bg-[#A4C639] text-black font-semibold py-3 rounded-xl hover:bg-[#C0D878] transition-colors"
                 >
                     Register Now
                 </button>
@@ -65,7 +65,7 @@ const Register = () => {
                     Already have an account?
                     <Link
                         to="/login"
-                        className="text-[#A4C639] hover:text-[#E87912] transition-colors"
+                        className="text-[#A4C639] hover:text-[#C0D878] transition-colors"
                     >
                         {" "}Login here
                     </Link>
